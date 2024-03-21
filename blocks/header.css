@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header__logo {
+  width: 254px;
+}
+
+.header__title {
+  width: 793px;
+  max-width: 793px;
+  font-family: "inter-SemiBold";
+  font-weight: 900;
+  line-height: 96px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header__paragraph {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 400px;
+  line-height: 36px;
+}
+
+.header__image {
+  width: 984px;
+  max-width: 984px;
+}
