@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+}
+
+.visit__footer {
+  background-image: url(../images/footer__background.png);
+  max-width: 1184px;
+}
+
+.buy__button {
+  padding: 13px 20px 13px 20px;
+  gap: 10px;
+  width: 191px;
+  height: 48px;
+  background-color: #0278fe;
+  border-radius: 4px;
+  color: #ffffff;
+  margin: 0 0 32px;
+  padding: 0;
+  border: none;
+  font-size: 18px;
+}
