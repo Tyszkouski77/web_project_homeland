@@ -1,33 +1,68 @@
 .discover {
-  align-items: center;
-  font-family: "Inter";
-  display: flex;
+  font-family: "Inter", sans-serif;
 }
-
-.discover__card {
-  max-width: 830px;
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: 0 auto;
+.discover__container {
+  max-width: 1017px;
 }
-
 .discover__title {
-  font-size: 54px;
   font-weight: 900;
+  font-size: 54px;
   line-height: 58px;
-  text-align: left;
-  margin: auto;
+  margin: 0 auto 40px;
 }
-
-.discover__paragraph {
-  font-size: 24px;
+.discover__text-comment {
+  max-width: 722px;
   font-weight: 400;
+  font-size: 24px;
   line-height: 34px;
 }
-
-.discover__paragraph-long {
-  font-family: Inter;
-  font-size: 16px;
+.discover__text-author {
+  display: block;
+  text-align: right;
+}
+.discover__text-info {
+  margin-top: 32px;
+  max-width: 722px;
   font-weight: 400;
+  font-size: 16px;
   line-height: 26.08px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .discover__container {
+    max-width: 720px;
+  }
+  .discover__title {
+    margin: 0 auto 15px;
+  }
+  .discover__text-comment {
+    max-width: 720px;
+  }
+  .discover__text-info {
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .discover__container {
+    max-width: 288px;
+  }
+  .discover__title {
+    margin: 0 auto 9px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .discover__text-comment {
+    max-width: 720px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .discover__text-author {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .discover__text-info {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
