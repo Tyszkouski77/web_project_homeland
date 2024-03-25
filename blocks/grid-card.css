@@ -1,0 +1,26 @@
+.grid-cards__images {
+  max-width: 1184px;
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 16px;
+}
+.grid-card__item {
+  width: 284px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .grid-cards__images {
+    max-width: 720px;
+  }
+  .grid-card__item {
+    width: 352px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .grid-cards__images {
+    max-width: 288px;
+  }
+  .grid-card__item {
+    width: 100%;
+  }
+}
