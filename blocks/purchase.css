@@ -54,3 +54,56 @@
   background-color: #0063d2;
   cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+  .purchase__card {
+    padding: 246px 0;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .purchase__card {
+    padding: 198px 0 197px;
+  }
+
+  .purchase__title {
+    font-size: 3.6rem;
+    line-height: 61px;
+  }
+
+  .purchase__text {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .purchase__card {
+    padding: 122px 0 121px;
+  }
+
+  .purchase__title {
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
+
+  .purchase__text {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .purchase__card {
+    padding: 46px 0 45px;
+  }
+
+  .purchase__title {
+    font-size: 2rem;
+    line-height: 35px;
+  }
+
+  .purchase__text {
+    font-size: 14px;
+    line-height: 1rem;
+  }
+}
