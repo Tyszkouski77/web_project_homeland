@@ -12,3 +12,9 @@
   margin: 0 auto;
   font-size: 1rem;
 }
+
+@media screen and (max-width: 720px) {
+  .page {
+    min-width: 362px;
+  }
+}
