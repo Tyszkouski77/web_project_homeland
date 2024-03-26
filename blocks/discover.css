@@ -1,69 +1,165 @@
 .discover {
-  font-family: "Inter", sans-serif;
-}
-.discover__container {
-  max-width: 1017px;
-  margin: 0 auto;
-}
-.discover__title {
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 58px;
-  margin: 0 auto 40px;
-}
-.discover__text-comment {
-  max-width: 722px;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 34px;
-}
-.discover__text-author {
-  display: block;
-  text-align: right;
-}
-.discover__text-info {
-  margin-top: 32px;
-  max-width: 722px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26.08px;
+  padding: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-  .discover__container {
-    max-width: 720px;
+.discover__image {
+  margin: 64px auto 0;
+  max-width: 100%;
+  display: block;
+}
+
+.discover__title {
+  margin: 92px 0 0 148px;
+  max-width: 830px;
+  text-align: left;
+  font-size: 54px;
+  line-height: 58px;
+  font-weight: 900;
+}
+
+.discover__quote {
+  margin: 40px 0 0 148px;
+  line-height: 34px;
+  max-width: 738px;
+  font-size: 1.5rem;
+}
+
+.discover__quote-text {
+  margin: 0;
+  text-align: left;
+}
+
+.discover__quote-author {
+  margin: 10px 0 0;
+  text-align: right;
+  max-width: 732px;
+}
+
+.discover__text {
+  margin: 32px 0 0 148px;
+  text-align: left;
+  max-width: 725px;
+  font-size: 1rem;
+  line-height: 26px;
+}
+@media screen and (max-width: 1127px) {
+  .discover__image {
+    margin: 36px auto 0;
   }
+
   .discover__title {
-    margin: 0 auto 15px;
+    margin: 88px auto 0;
   }
-  .discover__text-comment {
-    max-width: 720px;
+
+  .discover__quote {
+    box-sizing: border-box;
+    max-width: 830px;
+    margin: 58px auto 0;
+    padding-right: 45px;
   }
-  .discover__text-info {
-    max-width: 720px;
+
+  .discover__text {
+    max-width: 830px;
+    margin: 32px auto 0;
+    box-sizing: border-box;
+    padding-right: 103px;
   }
 }
-@media screen and (max-width: 767px) {
-  .discover__container {
-    max-width: 288px;
-  }
+
+@media screen and (max-width: 890px) {
   .discover__title {
-    margin: 0 auto 9px;
-    font-size: 32px;
-    line-height: 35px;
+    margin: 88px 30px 0;
   }
-  .discover__text-comment {
+  .discover__quote {
+    margin: 58px 30px 0;
+    padding-right: 20px;
+  }
+
+  .discover__text {
+    margin: 32px 30px 0;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .discover__title {
+    margin: 88px 0 0 24px;
+    max-width: 707px;
+  }
+
+  .discover__quote {
     max-width: 720px;
-    font-size: 24px;
-    line-height: 30px;
+    padding-right: 0;
+    margin: 58px 24px 0;
   }
-  .discover__text-author {
-    font-size: 24px;
+
+  .discover__quote-author {
+    margin: -8px 0 0;
+  }
+
+  .discover__text {
+    padding-right: 0;
+    margin: 32px 24px 0;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .discover__title {
+    margin: 80px 24px 0;
+    font-size: 3rem;
+    line-height: 1.1;
+  }
+
+  .discover__quote {
+    margin: 52px 24px 0;
+  }
+
+  .discover__quote-author {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .discover__title {
+    font-size: 2.5rem;
+    margin: 72px 24px 0;
+    line-height: 1.1;
+  }
+
+  .discover__quote {
+    margin: 46px 24px 0;
+  }
+
+  .discover__quote-author {
+    margin: 10px 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .discover__image {
+    margin: 40px 0 0;
+  }
+
+  .discover__title {
+    margin: 64px 16px 0;
+    line-height: 35px;
+    max-width: 288px;
+    font-size: 2rem;
+  }
+
+  .discover__quote {
+    margin: 40px 16px 0;
+    line-height: 30px;
+    max-width: 288px;
+    font-size: 1.5rem;
+  }
+
+  .discover__quote-author {
     line-height: 34px;
   }
-  .discover__text-info {
-    margin-top: 0;
-    font-size: 16px;
-    line-height: 26px;
+
+  .discover__text {
+    max-width: 288px;
+    margin: 32px 16px 0;
   }
 }
