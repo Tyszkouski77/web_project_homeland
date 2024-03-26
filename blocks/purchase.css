@@ -1,0 +1,56 @@
+.purchase__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  max-width: 1184px;
+  max-height: 740px;
+  padding: 243px 0;
+  margin: 92px auto 0;
+  background-image: linear-gradient(
+      rgba(42, 44, 47, 0.3),
+      rgba(42, 44, 47, 0.3)
+    ),
+    url("../images/purchase/purchase.png");
+}
+
+.purchase__card:hover {
+  background-image: linear-gradient(
+      rgba(42, 44, 47, 0.8),
+      rgba(42, 44, 47, 0.8)
+    ),
+    url("../images/purchase/purchase.png");
+}
+
+.purchase__title {
+  font-weight: 900;
+  line-height: 4.75rem;
+  font-size: 4.5rem;
+  margin: 0;
+}
+
+.purchase__text {
+  font-size: 18px;
+  margin: 0;
+  line-height: 22px;
+}
+
+.purchase__text:first-of-type {
+  margin-top: 32px;
+}
+
+.purchase__button {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 32px 0 0;
+}
+
+.purchase__button:hover {
+  background-color: #0063d2;
+  cursor: pointer;
+}
