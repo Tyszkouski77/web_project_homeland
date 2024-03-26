@@ -1,14 +1,14 @@
 * {
-  margin: 0;
   font-family: "Inter", Arial, sans-serif;
+  margin: 0;
 }
 
 .page {
+  line-height: 1.5;
   max-width: 1280px;
   box-sizing: border-box;
-  margin: 0 auto;
-  font-size: 1rem;
-  line-height: 1.5;
   background-color: #2a2c2f;
   color: #fff;
+  margin: 0 auto;
+  font-size: 1rem;
 }
