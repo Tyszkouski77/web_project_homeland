@@ -3,8 +3,10 @@
 }
 
 .header__logo {
-  display: block;
-  margin: 34px auto 0;
+  max-width: 254px;
+  margin: auto;
+  display: flex;
+  padding: 32px 0 0 0;
 }
 
 .header__title {
@@ -26,6 +28,14 @@
   line-height: 1.2;
   letter-spacing: 0em;
   text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .header__logo {
+    max-width: 254px;
+    margin: auto;
+    display: flex;
+    padding: 32px 0 0 0;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -51,9 +61,10 @@
 
 @media screen and (max-width: 320px) {
   .header__logo {
-    margin: 20.29px auto 0;
-    height: 52.76px;
-    width: 188.69px;
+    margin: auto;
+    padding: 34px 0 0 0;
+    display: flex;
+    max-width: 188.69px;
   }
 
   .header__title {
